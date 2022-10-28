@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background-image: linear-gradient(180deg, rgb(31, 92, 57), rgb(187, 187, 167));
+}
+.blackball{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.whiteball{
+    width: 150px;
+    height: 150px;
+    background-color: beige;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#answers{
+    width: 70px;
+    color: black;
+    border-radius: 50%;
+    font-size:20px ;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.inputfield{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+input{
+    position: absolute;
+    top: 65vh;
+    padding: 15px 50px 15px 15px;
+    font-size: 15px;
+    border-radius: 30px;
+    text-align: left;
+    border: 0px;
+
+}
+button{
+    position: absolute;
+    top: 75vh;
+    padding: 10px 30px;
+    font-size: 15px;
+    border-radius: 30px;
+    background-color: rgb(67, 50, 82);
+    color: aliceblue;
+    border: 2px solid black;
+}
+button:hover{
+    background-color: rgb(148, 141, 155);
+}
+button:active{
+    background-color: black;
+}
